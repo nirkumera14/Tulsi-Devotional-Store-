@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tulsi devotional Store</title>
+    <meta
+      name="description"
+      content="A demo storefront inspired by devotional product stores, built as a clean responsive dummy website."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="top-strip">
+        <div class="container">
+          <p>Easy returns on damaged products</p>
+          <p>Cash on Delivery available above Rs. 400</p>
+          <p>100% devotional-inspired handmade pieces</p>
+        </div>
+      </div>
+      <div class="nav-shell">
+        <div class="container nav-row">
+          <a class="logo" href="#home">
+            <span class="logo-mark">TDS</span>
+            <span class="logo-text"> </span>
+          </a>
+          <button
+            class="menu-toggle"
+            id="menuToggle"
+            aria-expanded="false"
+            aria-controls="siteNav"
+          >
+            Menu
+          </button>
+          <nav class="site-nav" id="siteNav">
+            <a href="#home">Home</a>
+            <a href="#catalog">Catalog</a>
+            <a href="#arrivals">New Arrivals</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+            <a class="cta-mini" href="#catalog">Shop Now</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Collection 2026</p>
+            <h1>Tulsi devotional Store</h1>
+            <p class="subtext">
+              Hero banners, category cards, featured products, deals, trust
+              badges, and customer reviews.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#catalog">Explore Catalog</a>
+              <a class="btn btn-ghost" href="#about">About</a>
+            </div>
+          </div>
+          <div class="hero-art">
+            <div class="hero-card large">
+              <p class="card-top">Made with care</p>
+              <p class="card-title">Crafted devotional accessories</p>
+            </div>
+            <div class="hero-card small">
+              <p class="card-top">Weekly Offer</p>
+              <p class="card-title">Up to 35% OFF</p>
+            </div>
+            <div class="hero-badge">Free shipping above Rs. 1999</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section category-section" id="catalog">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Shop by type</p>
+            <h2>Browse demo categories</h2>
+          </div>
+          <div class="category-grid">
+            <article class="category-card">
+              <h3>Tulsi Kanthi Mala</h3>
+              <p>Traditional neck malas in multiple bead styles.</p>
+            </article>
+            <article class="category-card">
+              <h3>Locket Mala</h3>
+              <p>Designs with devotional lockets and name beads.</p>
+            </article>
+            <article class="category-card">
+              <h3>Hand Bracelets</h3>
+              <p>Simple and premium bracelet sets for daily use.</p>
+            </article>
+            <article class="category-card">
+              <h3>Pure Attars</h3>
+              <p>Alcohol-free aromatic oils for prayer spaces.</p>
+            </article>
+            <article class="category-card">
+              <h3>Jap Bags</h3>
+              <p>Prayer bead carry bags in stitched cotton fabric.</p>
+            </article>
+            <article class="category-card">
+              <h3>Tika and Chandan</h3>
+              <p>Puja-ready tika, chandan, and braj raj products.</p>
+            </article>
+            <article class="category-card">
+              <h3>Rudraksha Mala</h3>
+              <p>Rudraksha combinations with premium finishing.</p>
+            </article>
+            <article class="category-card">
+              <h3>Gift Sets</h3>
+              <p>Ready gifting packs for festive occasions.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="about">
+        <div class="container split-grid">
+          <div class="split-media">
+            <div class="media-tile one"></div>
+            <div class="media-tile two"></div>
+            <div class="media-tile three"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section products" id="arrivals">
+        <div class="container">
+          <div class="section-head with-tabs">
+            <div>
+              <p class="eyebrow">Storefront rail</p>
+              <h2>Featured products</h2>
+            </div>
+            <div class="tabs" role="tablist" aria-label="Product collections">
+              <button
+                class="tab active"
+                role="tab"
+                aria-selected="true"
+                data-tab="tab-1"
+              >
+                Tulsi Mala
+              </button>
+              <button
+                class="tab"
+                role="tab"
+                aria-selected="false"
+                data-tab="tab-2"
+              >
+                New Arrivals
+              </button>
+            </div>
+          </div>
+
+          <div class="tab-panel active" id="tab-1" role="tabpanel">
+            <div class="product-grid">
+              <article class="product-card">
+                <span class="badge">Sale</span>
+                <div class="product-image tone-1"></div>
+                <h3>2 Round Classic Tulsi Mala</h3>
+                <p class="price"><span>Rs. 420</span><del>Rs. 530</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">Sale</span>
+                <div class="product-image tone-2"></div>
+                <h3>1 Round Dark Tulsi Mala</h3>
+                <p class="price"><span>Rs. 490</span><del>Rs. 680</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">Sale</span>
+                <div class="product-image tone-3"></div>
+                <h3>3 Round Brown Premium Mala</h3>
+                <p class="price"><span>Rs. 740</span><del>Rs. 890</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">Sale</span>
+                <div class="product-image tone-4"></div>
+                <h3>Radha Name Bead Tulsi Mala</h3>
+                <p class="price"><span>Rs. 660</span><del>Rs. 790</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">Sale</span>
+                <div class="product-image tone-5"></div>
+                <h3>Ram Locket Tulsi Mala</h3>
+                <p class="price"><span>Rs. 750</span><del>Rs. 890</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">Sale</span>
+                <div class="product-image tone-6"></div>
+                <h3>Bhaktmal Locket Mala</h3>
+                <p class="price"><span>Rs. 690</span><del>Rs. 940</del></p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-2" role="tabpanel" hidden>
+            <div class="product-grid">
+              <article class="product-card">
+                <span class="badge">New</span>
+                <div class="product-image tone-2"></div>
+                <h3>Handmade Jap Bag Set</h3>
+                <p class="price"><span>Rs. 299</span><del>Rs. 380</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">New</span>
+                <div class="product-image tone-4"></div>
+                <h3>Lotus Locket Tulsi Mala</h3>
+                <p class="price"><span>Rs. 460</span><del>Rs. 680</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">New</span>
+                <div class="product-image tone-6"></div>
+                <h3>Rose Attar 50 ML</h3>
+                <p class="price"><span>Rs. 350</span><del>Rs. 499</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">New</span>
+                <div class="product-image tone-3"></div>
+                <h3>Wooden Photo Frame</h3>
+                <p class="price"><span>Rs. 520</span><del>Rs. 680</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">New</span>
+                <div class="product-image tone-5"></div>
+                <h3>Tika Chandan Combo</h3>
+                <p class="price"><span>Rs. 240</span><del>Rs. 340</del></p>
+              </article>
+              <article class="product-card">
+                <span class="badge">New</span>
+                <div class="product-image tone-1"></div>
+                <h3>Rudraksha + Tulsi Set</h3>
+                <p class="price"><span>Rs. 630</span><del>Rs. 850</del></p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section offer">
+        <div class="container offer-wrap">
+          <div>
+            <p class="eyebrow">Limited period</p>
+            <h2>Explore our demo collection sale</h2>
+            <p>
+              Countdown and campaign banner section similar to an ecommerce
+              promo block.
+            </p>
+          </div>
+          <div class="countdown" aria-label="Offer countdown">
+            <div><span id="days">00</span><small>Days</small></div>
+            <div><span id="hours">00</span><small>Hours</small></div>
+            <div><span id="minutes">00</span><small>Minutes</small></div>
+            <div><span id="seconds">00</span><small>Seconds</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust">
+        <div class="container trust-grid">
+          <article class="trust-card">
+            <h3>Cash On Delivery</h3>
+            <p>
+              COD available above minimum order value for demo checkout flow.
+            </p>
+          </article>
+          <article class="trust-card">
+            <h3>Worldwide Shipping</h3>
+            <p>
+              Configured as a global-friendly storefront with clear shipping
+              note blocks.
+            </p>
+          </article>
+          <article class="trust-card">
+            <h3>Customer Support</h3>
+            <p>Fast response promise section to build trust before checkout.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section guide-reviews" id="reviews">
+        <div class="container dual-grid">
+          <article class="guide-card">
+            <p class="eyebrow">Knowledge card</p>
+            <h2>Rules of Wearing Tulsi Mala</h2>
+            <p>
+              Keep this as a blog preview card. It works as SEO and adds
+              authority to your storefront.
+            </p>
+            <a href="#home">Read Demo Guide</a>
+          </article>
+
+          <article class="review-card">
+            <p class="eyebrow">Customer voices</p>
+            <h2>What buyers say</h2>
+            <div class="review-slider" id="reviewSlider">
+              <blockquote class="review active">
+                "Delivery was smooth and the quality felt premium for the
+                price."
+                <cite>- A. Sharma</cite>
+              </blockquote>
+              <blockquote class="review">
+                "Exactly the kind of devotional style store layout I wanted to
+                test."
+                <cite>- R. Verma</cite>
+              </blockquote>
+              <blockquote class="review">
+                "Looks clean on mobile and desktop, with clear product
+                sections."
+                <cite>- M. Nair</cite>
+              </blockquote>
+            </div>
+            <div class="slider-dots" role="tablist" aria-label="Review slides">
+              <button
+                class="dot active"
+                data-review="0"
+                aria-label="Review 1"
+              ></button>
+              <button
+                class="dot"
+                data-review="1"
+                aria-label="Review 2"
+              ></button>
+              <button
+                class="dot"
+                data-review="2"
+                aria-label="Review 3"
+              ></button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section newsletter">
+        <div class="container newsletter-wrap">
+          <h2>Get updates and offers</h2>
+          <form class="newsletter-form" onsubmit="return false;">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your email" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>Tulsi devotional Store</h3>
+          <p>devotional ecommerce.</p>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <a href="#home">Home</a>
+          <a href="#catalog">Catalog</a>
+          <a href="#arrivals">Offers</a>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <a href="#home">Shipping policy</a>
+          <a href="#home">Return policy</a>
+          <a href="#home">Privacy policy</a>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Email: demo@vrindastyle.com</p>
+          <p>Phone: +91 9559313751</p>
+          <p>Hardoi, Uttar Pradesh</p>
+        </div>
+      </div>
+      <div class="container copyright">
+        <p>Copyright 2026 Tulsi devotional Store.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
